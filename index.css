@@ -1,0 +1,392 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+.container{
+    /* background-color:lightgreen; */
+    min-height:630px;
+    width:100%;
+}
+/* First   */
+.one{
+    min-height:130px;
+    width:390px;
+    /* background-color:blueviolet; */
+    margin:auto;
+    text-align:center;
+}
+.one h1{
+    padding:15px 5px 13px 5px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.one p{
+    font-size:13px;
+}
+/* Second  */
+.two{
+    min-height:310px;
+    width:100%;
+    /* background-color:grey; */
+    display:flex;
+    justify-content:space-around;
+}
+.doctor{
+    min-height:300px;
+    width:430px;
+    border:2px solid black;
+    padding:15px;
+}
+.doctor img{
+    height:180px;
+    width:395px;
+    margin-bottom:10px;
+}
+.content{
+    font-size:11px;
+    min-height:70px;
+    width:364px;
+    line-height:1.4;
+    display:inline;
+    float:right;
+    margin-top:7px;
+}
+.tag{
+    font-size:36px;
+    font-weight:bold;
+    color:blue;
+    display:inline;
+}
+/* Third */
+.para{
+    text-align: center;
+    color:darkgreen;
+    padding-bottom:70px;
+}
+/* four */
+.four{
+    width:100%;
+    min-height:270px;
+    display:flex;
+}
+.photo img{
+    height:270px;
+    width:450px;
+}
+.word{
+    min-height:270px;
+    width:470px;
+    background-color:lightgrey;
+    text-align:center;
+    padding:40px 23px 30px 23px;
+}
+.word i{
+    font-size:30px;
+}
+.word h1{
+    font-size:40px;
+    padding:12px 0px 12px 0px;
+}
+.word button{
+    min-height:30px;
+    width:150px;
+    font-weight:bold;
+    border:none;
+    margin-top:13px;
+}
+/* Five */
+.five{
+    min-height:200px;
+    width:100%;
+    background-color:lightcoral;
+    text-align:center;
+    display:flex;
+    font-family:arial;
+    margin-bottom:37px;
+}
+.medicine{
+    min-height:250px;
+    width:350px;
+    padding:60px 25px 60px 25px;
+}
+.medicine h2{
+    padding:13px 13px;
+    font-size:20px;
+}
+.medicine p{
+    font-size:14px;
+}
+.medicine i{
+    font-size:24px;
+}
+/* Six */
+.six{
+    min-height:380px;
+    width:100%;
+    display:flex;
+    font-family:arial;
+    margin-bottom:10px;
+
+}
+
+.image img{
+    height:380px;
+    width:780px;
+    padding:30px;
+}
+.detail{
+    min-height:380px;
+    width:500px;
+    padding:65px 10px 50px 10px;
+}
+.detail p{
+    padding:15px 0px 15px 0px;
+}
+.detail button{
+    padding:6px 17px 6px 17px;
+    border:none;
+    background-color:lightsalmon;
+    font-weight:bold;
+    margin-top:20px;
+}
+/* Seven */
+.seven{
+    min-height:120px;
+    width:100%;
+    display:flex;
+    padding:40px 10px 40px 20px;
+    margin-bottom:40px;
+    background-color:lightgreen;
+}
+.call{
+    width:450px;
+}
+.call i{
+    padding-bottom:10px;
+}
+/* Eight */
+.Eight{
+    min-height:210px;
+    width:100%;
+    background-color:gray;
+}
+.end{
+    height:160px;
+    width:380px;
+    margin:auto;
+    text-align:center;
+}
+.last{
+    padding:20px 0px 80px 0px;
+    color:white;   
+}
+.end p{
+    color:white;
+}
+@media screen and  (max-width:500px) {
+    .one h1{
+        font-size:40px;
+    }
+    .one {
+        width:100%;
+    }
+    .two {
+        flex-direction: column;
+        gap:20px;
+    }
+    .doctor img {
+        width: 100%;
+    }
+    .doctor {
+        width: 100%;
+        padding:5px;
+    }
+    .container {
+        padding:5px;
+    }
+    .content {
+        float: none;
+        font-size:13px;
+    }
+    .four {
+        flex-direction: column;
+    }
+    .four img {
+        width: 100%;
+    }
+    .word {
+        width:100%;
+    }
+    .medicine {
+        padding: 20px;
+    }
+    .five {
+        flex-direction: column;
+    }
+    .six {
+        flex-direction: column;
+    }
+    .image img {
+        padding: 0;
+        width:100%;
+    }
+    .detail {
+        width:100%;
+    }
+    .seven {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+    .call {
+        width:100%;
+    }
+    aside {
+        padding:15px;
+    }
+    .last{
+        padding-bottom:50px;
+    }
+    .medicine {
+        width:100%;
+    }
+    .end {
+        width:100%;
+    }
+    .medicine p {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:800px) {
+    .one h1{
+        font-size:50px;
+    }
+    .one {
+        width:100%;
+    }
+    .one p {
+        font-size:32px;
+    }
+    .two {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top:20px;
+    }
+    .container {
+        padding:10px;
+    }
+    .doctor {
+        width:45%;
+        padding: 5px;
+    }
+    .doctor img {
+        width:100%;
+    }
+    .content {
+        float: none;
+        font-size:18px;
+    }
+    .four {
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items:center;
+        gap:20px;
+    }
+    .photo img {
+        width:229px;
+        height:350px;
+    }
+    .word {
+        width:241px;
+        padding: 20px;
+    }
+    .medicine {
+        padding: 20px;
+        width:50%;
+    }
+    .medicine p {
+        font-size:22px;
+    }
+    .five {
+        flex-wrap:wrap;
+    }
+    .image img {
+        padding: 0;
+        width:100%;
+    }
+    .six {
+        padding: 10px;
+    }
+    .call {
+        width:45%;
+        padding:20px;
+    }
+    .seven {
+        padding:40px 20px;
+        flex-wrap:  wrap;
+        justify-content:center;
+    }
+    .detail small {
+        font-size:16px;
+    }
+    .call p {
+        font-size:20px;
+    }
+    .end p {
+        font-size:20px;
+    }
+}
+@media screen and (min-width:800px) and (max-width:1300px) {
+    .one h1 {
+        font-size:50px;
+    }
+    .container {
+        padding:10px;
+    }
+    .one p {
+        font-size: 20px;
+        padding-bottom:20px;
+    }
+    .two {
+        flex-wrap:wrap;
+        gap:20px;
+    }
+    .doctor {
+        width:46%;
+        padding:10px;
+    }
+    .doctor img {
+        width:100%;
+    }
+    .content {
+        float:none;
+        font-size:20px;
+    }
+    .four {
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+    }
+    .photo img {
+        width:380px;
+    }
+    .word {
+        width:380px;
+    }
+    .medicine {
+        padding: 20px;
+        height:160px;
+        width:32%;
+    }
+    .five {
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+    }
+    .image img {
+        padding:0;
+        width:100%;
+    }
+}
